@@ -1,5 +1,5 @@
 import expect from 'expect'
-import { percySnapshot as realPercySnapshot } from '@percy/puppeteer'
+import * as realPercySnapshot from '@percy/puppeteer'
 import * as jsonc from '@sqs/jsonc-parser'
 import * as jsoncEdit from '@sqs/jsonc-parser/lib/edit'
 import * as os from 'os'
